@@ -21,7 +21,7 @@ function createRectangle(event) {
   rect.classList.add('rectangle');
 
   // Use the horizontal click position for the rectangle's left position
-  const rectWidth = 5000; // Assuming each rectangle is 50px wide
+  const rectWidth = 500; // Assuming each rectangle is 50px wide
   rect.style.left = (event.clientX - rectWidth / 2) + 'px'; // Center the rectangle on the mouse x position
   
   // Set a fixed y position for all rectangles, adjust this value as needed
