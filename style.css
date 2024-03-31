@@ -15,7 +15,7 @@
 .rect-text {
   font-family: 'Roboto', sans-serif; /* Use the Roboto font */
   font-weight: 2; /* Make it very bold */
-  font-size: 80px; /* Adjust the font size as needed */
+  font-size: 160px; /* Adjust the font size as needed */
   color: rgb(255, 255, 255); /* Keeping the text color white for contrast */
   text-align: center; /* Center text horizontally */
   position: absolute; /* Position text element within rectangle */
@@ -29,7 +29,7 @@
   z-index: 10; /* Ensure it's above other content */
   font-family: 'Roboto', sans-serif; /* Assuming you're using Roboto */
   font-weight: 900; /* Make it bold */
-  font-size: 2em; /* Increase the font size */
+  font-size: 6em; /* Increase the font size */
   color: rgb(50, 47, 47)000; /* Choose a color that stands out against your background */
   user-select: none; /* Prevent text selection */
   text-align: center; /* Ensure the text is centered if it wraps */
