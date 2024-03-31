@@ -1,0 +1,36 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.rectangle {
+  width: 50vw;
+  height: 100vh;
+  position: absolute;
+  top: 0; /* Align the top of the rectangle with the top of the viewport */
+}
+
+.rect-text {
+  font-family: 'Roboto', sans-serif; /* Use the Roboto font */
+  font-weight: 2; /* Make it very bold */
+  font-size: 80px; /* Adjust the font size as needed */
+  color: rgb(255, 255, 255); /* Keeping the text color white for contrast */
+  text-align: center; /* Center text horizontally */
+  position: absolute; /* Position text element within rectangle */
+  left: 50%;
+  top: 50%; /* Center text vertically */
+  transform: translate(-50%, -50%); /* Adjust centering */
+}
+
+
+.click-instruction {
+  z-index: 10; /* Ensure it's above other content */
+  font-family: 'Roboto', sans-serif; /* Assuming you're using Roboto */
+  font-weight: 900; /* Make it bold */
+  font-size: 2em; /* Increase the font size */
+  color: rgb(50, 47, 47)000; /* Choose a color that stands out against your background */
+  user-select: none; /* Prevent text selection */
+  text-align: center; /* Ensure the text is centered if it wraps */
+}
